@@ -1,0 +1,61 @@
+//DONE// adda select genom att göra en 32/16 bitars 2d array på 800x600 sen kolla i den efter vilket id som blir markerat 
+//DONE// Ladda grfiken direct från uo
+//DONE// knappar och sånt fixa så slidern för itemlistan funkar
+//DONE// Load/Save Funktion
+//DONE// fil namns val på Load/Save Functionerna
+//DONE// en uoHouse->uo txt multi och scp converterare
+//DONE// en verktygs pallett med tile, single item , droplet, selectmove det duger nog
+//DONE// en undo knapp med ca 10 nivåer av undo 50000 byte per nivå så 48.828125k per 1 * 10 = 488.28125k så hmmmm kanshe 20 30 nivåer + Redo nu
+//DONE// ta bort översta itemlist raden och ersätt den med 2 bilder en för vanlig select och en för tile select 2 
+//DONE// den evigt jobbiga sorteringen av vad som e vad med kategori flikar :\
+//DONE// gravstenar och gräs + lite till
+//DONE// tile ruta
+//DONE// en New knapp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Realtids textur annat än rand()%255 så klart annars blir det lite trist
+		
+		for(i=0;i<Texture.width*Texture.height*(Texture.bpp/8);i+=Texture.bpp/8)
+		{
+			if(Texture.bpp==32)
+			{
+			//	if(Texture.imageData[i+3]!=255)
+				{
+					Texture.imageData[i]=0;
+					Texture.imageData[i+1]=rand()%255;
+					Texture.imageData[i+2]=0;
+					Texture.imageData[i+3]=Texture.imageData[i+1];
+				}
+			}
+			else
+			{
+				Texture.imageData[i]=rand()%255;
+				Texture.imageData[i+1]=rand()%255;
+				Texture.imageData[i+2]=rand()%255;
+			}
+		}
+		
+		glBindTexture(GL_TEXTURE_2D, Texture.texID);			// Bind Our Texture så det e rätt textur som ändras 
+		//								 GL_RGB								 GL_RGB vilken som änn passar
+		gluBuild2DMipmaps(GL_TEXTURE_2D, GL_RGBA, Texture.width, Texture.height, GL_RGBA, GL_UNSIGNED_BYTE, Texture.imageData); //ändrar texturen måste bara ta #include <gl\glu.h>
+
+*/
